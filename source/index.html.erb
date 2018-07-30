@@ -8,8 +8,7 @@ title: Le Wagon - Middleman
     <% %w(berlin shanghai paris tokyo rio).each do |city| %>
       <div class="col-md-3">
         <div class="card" style="background-image: url('https://kitt.lewagon.com/placeholder/cities/<%= city %>');">
-          <h2><%= city %></h2>
-          <p><%= city %></p>
+          <h2><%= city.capitalize %></h2>
         </div>
       </div>
     <% end %>
