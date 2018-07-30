@@ -1,0 +1,9 @@
+<h1>Here are the teams</h1>
+<ul class="list-inline text-center">
+  <% ["mattfraz38", "fumipi"].each do |gh_username| %>
+    <li>
+      <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle avatar" %>
+      <h3><%= gh_username.capitalize %></h3>
+    </li>
+  <% end %>
+</ul>
